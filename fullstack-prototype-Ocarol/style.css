@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    min-height: 100vh;
+}
+.navbar {
+    background-color: rgb(6, 59, 204);
+    height: 85px;
+}
+.header {
+    color: white !important;
+    padding-left: 10px;
+}
+.menu {
+    line-height: 15px;
+}
+.intro{
+    padding-top:10px;
+    padding-left:20px;
+}
+.warning{
+    height: 50px;
+    width: fit-content;
+    background-color: rgb(5, 184, 255);;
+    border-radius: 5px;
+    padding: 12px;
+}
+.lstorage{
+    color: rgb(255, 0, 149);
+    font-style: italic;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.card { 
+    width:50%;
+    height: fit-content;
+    padding: 3%;
+}
+.btn {
+    margin-top: 15px;
+    width: fit-content
+}
+#id{
+    margin-right: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    width: fit-content;
+}
+.dropdown{
+    position: relative;
+}
+.d-menu{
+    text-decoration: none;
+    color:black;
+    padding-left: 5px;
+}
+.dropdown-menu{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    max-width: 100vw;
+    transform: translateX(-70px);
+}
+.profile{
+    align-items: center;
+}
+.register {
+    text-decoration: none;
+    color: white;
+}
+.verLink{
+    height: 50px;
+    width: fit-content;
+    background-color: rgba(5, 216, 58, 0.616);;
+    border-radius: 5px;
+    padding: 12px;
+}
